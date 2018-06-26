@@ -9,11 +9,16 @@ function nowServing(katzDeliLine) {
   // return first person in line
   if (katzDeliLine.length !== 0) {
     var name = katzDeliLine.shift()
+<<<<<<< HEAD
     return "Currently serving " + name + ".";
+=======
+    return name;
+>>>>>>> dddfdfee8a4046aa6eae2dac82591ee358c577b1
   }
   else { // array is empty
     return "There is nobody waiting to be served!";
   }
+<<<<<<< HEAD
 }
 
 function currentLine(katzDeliLine) {
@@ -35,4 +40,6 @@ function currentLine(katzDeliLine) {
   else {
     return "The line is currently empty.";
   }
+=======
+>>>>>>> dddfdfee8a4046aa6eae2dac82591ee358c577b1
 }
